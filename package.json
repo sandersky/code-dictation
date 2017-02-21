@@ -1,0 +1,20 @@
+{
+  "name": "code-dictation",
+  "main": "./lib/code-dictation",
+  "version": "0.0.0",
+  "description": "Write code by talking to your editor.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "code-dictation:observe"
+    ]
+  },
+  "repository": "https://github.com/atom/code-dictation",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

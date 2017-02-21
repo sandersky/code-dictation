@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Observe",
+        "command": "code-dictation:observe"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Dictation",
+          "submenu": [
+            {
+              "label": "Observe",
+              "command": "code-dictation:observe"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
