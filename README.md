@@ -1,5 +1,11 @@
 # code-dictation package
 
-A short description of your package.
+An Atom plugin to enable dictating code. Simply enable dictation on your
+computer, type `Ctrl+Alt+O` to start observing the text editor and go nuts
+with voice commands. Below are the voice commands currently supported by this
+plugin:
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+* **down** – move cursor to beginning of next line
+* **go to line x** – move cursor to beginning of line x (replace x with a number)
+* **line x** – move cursor to beginning of line x (replace x with a number)
+* **up** – move cursor to beginning of previous line
