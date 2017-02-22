@@ -10,7 +10,10 @@
       "code-dictation:observe"
     ]
   },
-  "repository": "https://github.com/atom/code-dictation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandersky/code-dictation"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
