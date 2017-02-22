@@ -9,3 +9,9 @@ plugin:
 * **go to line x** – move cursor to beginning of line x (replace x with a number)
 * **line x** – move cursor to beginning of line x (replace x with a number)
 * **up** – move cursor to beginning of previous line
+
+Additional commands exist for the following languages and will automatically be
+loaded if the file you are working on has the proper grammar set for the file
+type:
+
+* [JavaScript](documentation/languages/javascript.md)
