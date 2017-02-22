@@ -1,10 +1,9 @@
 {
   "name": "code-dictation",
   "main": "./lib/code-dictation",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Write code by talking to your editor.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": [
       "code-dictation:observe"
@@ -18,6 +17,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
