@@ -17,5 +17,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "animate.css": "^3.5.2"
+  }
 }

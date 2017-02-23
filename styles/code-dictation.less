@@ -3,6 +3,46 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
+@import (inline) '../node_modules/animate.css/animate.css';
+
+@-webkit-keyframes short-shake {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes short-shake {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 50%, 90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  30%, 70% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+.short-shake {
+  -webkit-animation-name: short-shake;
+  animation-name: short-shake;
+}
 
 .code-dictation {
   align-items: center;
@@ -17,7 +57,8 @@
 }
 
 .code-dictation-hint,
-.code-dictation-word {
+.code-dictation-word,
+.code-dictation-wrong-word {
   border-radius: .25em;
   color: #fff;
   font-weight: 400;
@@ -31,4 +72,10 @@
 
 .code-dictation-word {
   background-color: #5cb85c;
+}
+
+.code-dictation-wrong-word {
+  -webkit-animation-duration: .3s;
+  animation-duration: .3s;
+  background-color: #d9534f;
 }
