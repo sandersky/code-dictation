@@ -1,7 +1,7 @@
 {
   "name": "code-dictation",
   "main": "./lib/code-dictation",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Write code by talking to your editor.",
   "keywords": [],
   "activationCommands": {
