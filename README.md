@@ -1,8 +1,16 @@
 # code-dictation package
 
-An Atom plugin to enable dictating code. Simply enable dictation on your
-computer, type `Ctrl+Alt+O` to start observing the text editor and go nuts
-with voice commands. Below are the voice commands currently supported by this
+An Atom plugin to enable dictating code. It is as easy as:
+
+1. Get a computer running OS X if you don't have one already.
+2. [Enable dictation on your
+computer](https://support.apple.com/en-us/HT202584).
+3. Install this plugin in Atom by running the command `apm install code-dictation`.
+4. In your editor enable dictation with `Ctrl+Alt+O` *(Use the same command to turn dictation off)*.
+5. Enable your Mac's dictation so it listens to your voice *(double tap the `fn` key)*.
+6. Learn what voice commands are built-in and go nuts.
+
+Below are the voice commands currently supported by this
 plugin:
 
 * **down** – move cursor to beginning of next line
@@ -15,3 +23,7 @@ loaded if the file you are working on has the proper grammar set for the file
 type:
 
 * [JavaScript](documentation/languages/javascript.md)
+
+## Configuration
+
+When you say **line** Apple's dictation may end up hearing **wine** instead. The rate at which words aren't quite right would make voice commands rather useless if the plugin didn't handle these cases and treat them as if they are the intended word. This plugin does handle these use cases via a [like-words dictionary file](lib/dictionaries/like-words.json), which maps supported voice command words to alternatives the speech recognition layer may think it heard. If you find the built-in dictionary doesn't quite cut it for you and the plugin is constantly rejecting your speech you can define your own like-words dictionary in a file at *~/.code-dictation/like-words.json*. This should be in the same format as the file mentioned above that is the default dictionary for this project.
