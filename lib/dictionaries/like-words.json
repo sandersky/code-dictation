@@ -1,6 +1,22 @@
 {
+  "bunsen": [
+    "brunson",
+    "burlinson",
+    "johnson",
+    "munsen"
+  ],
+  "const": [
+    "concert",
+    "constance",
+    "constant",
+    "cost"
+  ],
   "down": [
     "town"
+  ],
+  "ember": [
+    "amber",
+    "denver"
   ],
   "import": [
     "important"
@@ -14,5 +30,11 @@
   "to": [
     "too",
     "two"
+  ],
+  "var": [
+    "are",
+    "bar",
+    "far",
+    "variable"
   ]
 }
