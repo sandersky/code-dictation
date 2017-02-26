@@ -1,0 +1,24 @@
+{
+  "down": [
+    {
+      "command": "line",
+      "line": "+1"
+    }
+  ],
+  "go to line #": [
+    {
+      "command": "line"
+    }
+  ],
+  "line #": [
+    {
+      "command": "line"
+    }
+  ],
+  "up": [
+    {
+      "command": "line",
+      "line": "-1"
+    }
+  ]
+}
