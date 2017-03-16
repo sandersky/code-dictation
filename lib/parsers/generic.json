@@ -4,6 +4,11 @@
       "command": "closeTab"
     }
   ],
+  "atom new file": [
+    {
+      "command": "newFile"
+    }
+  ],
   "atom next tab": [
     {
       "command": "changeTab",

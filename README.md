@@ -14,6 +14,7 @@ Below are the voice commands currently supported by this
 plugin:
 
 * **atom close tab** – close the current tab
+* **atom new file** – open a new, unnamed file in a new tab
 * **atom next tab** – navigation to the next tab in the current pane
 * **atom previous tab** – navigate to the previous tab in the current pane
 * **atom tab #** – navigation to tab x in the current pane (replace x with a number)
