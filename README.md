@@ -13,6 +13,10 @@ computer](https://support.apple.com/en-us/HT202584).
 Below are the voice commands currently supported by this
 plugin:
 
+* **atom close tab** – close the current tab
+* **atom next tab** – navigation to the next tab in the current pane
+* **atom previous tab** – navigate to the previous tab in the current pane
+* **atom tab #** – navigation to tab x in the current pane (replace x with a number)
 * **down** – move cursor to beginning of next line
 * **go to line x** – move cursor to beginning of line x (replace x with a number)
 * **line x** – move cursor to beginning of line x (replace x with a number)
@@ -46,4 +50,4 @@ The filename should be the words that make up the voice command separating words
 
 Then with this plugin running I can simply say `snippet node package` and the contents above will automatically be pasted into the editor at the current cursor location.
 
-> Note: To trigger a snippet command you must say `snippet` followed by your on-boarded command. 
+> Note: To trigger a snippet command you must say `snippet` followed by your on-boarded command.

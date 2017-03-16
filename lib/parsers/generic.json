@@ -1,4 +1,26 @@
 {
+  "atom close tab": [
+    {
+      "command": "closeTab"
+    }
+  ],
+  "atom next tab": [
+    {
+      "command": "changeTab",
+      "tab": "+1"
+    }
+  ],
+  "atom previous tab": [
+    {
+      "command": "changeTab",
+      "tab": "-1"
+    }
+  ],
+  "atom tab #": [
+    {
+      "command": "changeTab"
+    }
+  ],
   "down": [
     {
       "command": "line",
